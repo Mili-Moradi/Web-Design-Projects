@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document für die #content Inhalte von aktuell.html */
+
+table, th, td{border: 1px solid #001463;
+font-weight: bold;}
+.fett{font-weight: bold;}
+[colspan]{font-weight: normal;}
+
+.AccordionPanelContent{text-align: justify;
+hyphens: auto;}
+
+.AccordionPanelContent img{float:right;
+margin:5px 5px 15px 15px;}
+
+.kober{height: 185px;
+width: auto;}
+
+
+

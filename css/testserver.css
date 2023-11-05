@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+
+/* CSS Document für das Beispiel eigene Website auf dem Testserver */ 
+
+*		{ box-sizing:border-box;}
+
+
+body	{ background-color:#dedede;
+			font: 100% "Trebuchet MS",Segoe, "Segoe UI", "DejaVu Sans",  Verdana, sans-serif;}
+			
+#wrapper
+		{ background-color:rgba(244,203,84,1.00);
+			width:500px;
+			height:500px;
+			margin:50px auto;}	/**/
+
+
+
+
+
+
+			

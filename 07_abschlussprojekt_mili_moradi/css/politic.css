@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document für Wdh meine Stadt */
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;}
+
+body {
+font-family:   Lucida Grande, Lucida Sans Unicode;
+}
+
+.container2{
+background-color: rgba(223,165,249,0.40);
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+.text{
+/*background-color: cornflowerblue;*/
+width: 50%;
+height: 20%; 
+color: rgba(90,164,86,1.00);
+padding: 1rem 1rem;
+margin: 0 auto;
+text-align: center;
+margin-top: 1rem;
+}
+
+.link{
+display: block;
+width: 50%;
+margin: 0 auto;
+text-align: center;
+margin-top: 1rem;
+}
+
+.link a{
+text-decoration: none;
+text-align: center;
+font-size: 2rem;
+color: rgba(253,71,67,1.00);
+transition: 0.5s;
+}
+
+.link a:hover{
+color:rgba(193,81,243,1.67);
+padding-left: 2rem;    
+    
+}
+
+.iframe{
+width:50%;
+height: 50%;
+margin: 0 auto;
+/*padding: 1rem;*/
+margin-top: 1rem;
+overflow: hidden;
+}
+
+.video{
+width:100%;
+height: 100%;
+border:none;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

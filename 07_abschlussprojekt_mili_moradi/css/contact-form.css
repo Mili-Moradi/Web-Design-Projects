@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document for contact-form.html */
+
+*{
+padding: 0;
+margin: 0;
+}
+
+body {
+font-family:   Lucida Grande, Lucida Sans Unicode;
+}
+
+.container2{
+background-image: url("../pic/contactuspage.jpg");  
+background-size: cover;
+background-repeat: no-repeat;  
+background-position: center;
+width: inherit;
+padding: 1.65rem;
+position: relative;
+display: flex;
+justify-content: center;
+}
+
+.main2{
+width: 45%;
+/*height: 70%;*/
+background-color: rgba(156,13,217,0.10);
+padding: 0.5rem 0.5rem;
+border: 1px solid rgba(255,255,255,1.00);
+border-radius: 30px;
+
+}
+
+.main1{
+width: 45%;
+/*height: 70%;*/
+background-color: rgba(156,13,217,0.20);
+padding: 0.5rem 0.5rem;
+border: 1px solid rgba(255,255,255,1.00);
+border-radius: 30px;
+text-align: center;
+margin-left:  2rem;
+}
+
+
+
+p, .main1 h1,.main2 h1, .main1 h3,.main2 h3,label{color: rgba(255,255,255,1.00);
+}
+
+h1,h3,p{text-align: center;
+}
+label{
+text-align: center;}
+
+input{
+width: 300px;
+height:30px;  
+border-radius: 15px;
+border-color: rgba(255,158,0,1.00);
+text-align: center;
+}
+
+
+
+[type="radio"], [type="checkbox"]{
+width: 1.5rem;
+}
+
+textarea{
+width: 500px;
+height: 100px;
+border-radius: 15px;
+}
+
+
+.send{
+/*background-color: rgba(102,154,75,0.56);*/
+ background:linear-gradient(-20deg,#E82CE7,blue);
+box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);   
+color:rgba(255,255,255,1.00);
+width: 200px;
+height:50px;  
+border-radius: 50px;
+border-color: rgba(255,158,0,1.00);
+margin-left: 40%;
+cursor: pointer;
+transition: 0.5s ;
+font-size: 1rem;
+}
+
+.send:hover{
+color: rgba(255,158,0,1.00);
+background-color: rgba(154,75,94,0.56);
+font-size: 1.2rem;
+
+}    
+
+.main1 i{
+color:rgba(255,255,255,1.00);
+font-size: 4rem; 
+padding-left: 3rem;
+transition: 0.5s;
+}
+
+.main1 i:hover{
+color:  rgba(81,122,59,1.00);
+font-size: 4.5rem;
+}
+
+select{
+width: 200px;
+height:30px;  
+border-radius: 15px;
+border-color: rgba(255,158,0,1.00);
+text-align: center;
+}
+
+
+
+

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document für homepage */
+
+*{
+padding: 0;
+margin: 0;
+}
+
+body {
+font-family:   Lucida Grande, Lucida Sans Unicode;
+}
+.container2{
+background-image: url("../pic/Think-Iran-Shiraz-NasirAlMulkMosquey.jpg");    
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+.blog{
+background-color: rgba(223,165,249,0.40);
+width: inherit;
+height: auto;
+color: #FFFFFF;
+padding: 2rem 1rem;
+text-align: center;
+}
+
+.section{
+/*background-color: red;*/ 
+display: flex;
+justify-content: space-around;
+height: 20rem;
+color: rgba(0,0,0,1.00);
+margin-bottom: 1rem;
+padding: 0.5rem 0.5rem;
+}
+
+.text{ 
+/*background-color: aqua;*/
+width:40%;
+height: inherit;
+border: 1px solid rgba(163,110,63,0.61);
+border-radius: 25px;
+}
+
+img{
+width:40%;
+height: inherit;
+border: 1px solid rgba(163,110,63,0.61);
+border-radius: 25px;
+}

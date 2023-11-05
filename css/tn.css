@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document für den Tilnehmer */
+
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+
+body{ /*background-color:#dedede;*/
+		  font: 100% "Trebuchet MS", Segoe, "Segoe UI", "DejaVu Sans",  Verdana, sans-serif;}
+			
+.tn{ background-color:rgba(132,96,97,0.10);
+          width:300px;
+          height:200px;
+          margin:0 auto;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color:#374E3E; 
+}
+
+.tn_navi{
+    display: flex;
+    flex-wrap: wrap;justify-content: space-around;
+}
+
+.tn_navi a{
+    background-color: rgba(242,196,109,0.50);
+    color:#374E3E;
+    width: 5.5rem;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3125rem;	
+    text-decoration: none;
+    font-family: Lucida Sans Unicode;
+    font-size: 70%;
+    font-weight: bold;
+    cursor: pointer;
+    transition:padding-left 0.9s;
+    padding: 0 0.7rem;
+    border: 1px solid rgba(191,107,99,0.60);
+}
+
+.tn_navi a:hover{
+/*padding-left: 10%;*/
+    transform: scale(1.1);
+	
+}
+.tn_navi a:nth-last-child(1){
+    background-color: rgba(191,107,99,0.60);
+}
+ 

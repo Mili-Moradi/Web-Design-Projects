@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document für iran-pics */
+
+*{box-sizing: border-box;}
+
+body{font-family:"Trebuchet MS", Verdana, sans-serif;
+font-size: 75%;}
+
+article{/*background-color: rgba(41,135,22,0.32)*/;
+width:800px;}
+
+/*h2{background-color: rgba(240,239,72,0.35);
+margin: 0;
+margin-bottom: 10px;}*/
+
+
+.navigation{/*background-color: rgba(107,10,227,0.38);*/
+border-top: 1px solid #000;
+border-bottom: 1px solid #000;
+padding: 10px 0;
+margin-bottom: 10px;
+overflow:hidden;/**/}
+
+.navigation a{ /*background-color:rgba(116,241,101,1.00);*/
+float: left;
+color:transparent;
+width: 80px;
+height:60px;
+background-size: cover;/**/}
+
+.navigation a:hover{ /*background-color:rgba(217,60,70,1.00);*/
+opacity: 0.8;  }
+
+.navigation a:nth-of-type(1){background-image: url(../img/01.jpg);}
+.navigation a:nth-of-type(2){background-image: url(../img/02.jpg);}
+.navigation a:nth-of-type(3){background-image: url(../img/03.jpg);}
+.navigation a:nth-of-type(4){background-image: url(../img/04.jpg);}
+.navigation a:nth-of-type(5){background-image: url(../img/05.jpg);}
+.navigation a:nth-of-type(6){background-image: url(../img/06.jpg);}
+.navigation a:nth-of-type(7){background-image: url(../img/07.jpg);}
+.navigation a:nth-of-type(8){background-image: url(../img/08.jpg);}
+.navigation a:nth-of-type(9){background-image: url(../img/09.jpg);}
+.navigation a:nth-of-type(10){background-image: url(../img/10.jpg);}
+
+.images{/*background-color: rgba(240,239,72,0.35);*/
+display:block;	
+border: none;
+width:100%;
+height:600px;
+margin-bottom: 10px;}/**/

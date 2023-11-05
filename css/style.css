@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+}
+
+h1{
+  color: rgba(201,208,209,1.00);
+  filter:drop-shadow(8px 8px 8px black );
+  font-family: Segoe UI;
+  position: absolute;
+  bottom: 1.7rem;
+  left: 1rem;
+  font-size: 180%;
+}
+
+.name{
+      color: rgba(201,208,209,1.00);
+      font-family: Segoe UI;
+      position: absolute;
+      bottom: 0.4rem;
+      left: 14rem;
+      font-size: 80%;
+}
+
+.start{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin:  100px auto; 
+    background-image: url("../img/Azadi.jpg");
+    background-position: center;background-size: cover;   
+}
+
+.navigation{
+    background-color: #A6A26A;
+    height: 2rem;
+    display: flex;   
+    justify-content: space-around;
+    font-family: Lucida Sans Unicode;
+}
+
+.navigation a {
+    text-decoration: none;
+    color:#593C47;
+    font-size: 70%    ;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 6px 3px;
+    transition: all 0.6s linear; 
+}
+
+.navigation a:hover{
+    background-color: rgba(246,229,159,1.00);
+    transform: scale(1.05);
+    color: rgba(75,30,0,1.00);
+}
+
+.navi{/*background-color: rgba(191,5,8,0.34);*/
+width:32%;
+padding: 0.25rem;	
+margin-top: 20%;
+}
+
+.navi a{
+    background-color: rgba(191,107,99,0.60);
+    color:#374E3E;
+    display:block;
+    padding: 0.3125rem 0.25rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.3125rem;	
+    text-decoration: none;
+    transition:padding-left 0.5s;
+    font-family: Lucida Sans Unicode;
+    font-size: 70%;
+    font-weight: bold;
+    cursor: pointer;
+	
+}
+
+.navi a:hover{
+padding-left: 12%;
+	
+}
+
+.frame{
+    position: absolute;
+    /*display: block;*/
+    top: 26%;
+    left: 195px;
+    width: 300px;
+    height: 200px;
+    border: none;
+    background-color: transparent;
+    
+}

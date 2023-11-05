@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document für Stadseite und Inhaltsverzeichnis */
+
+*{box-sizing: border-box;}
+
+body{font-family: "Trebuchet MS", Verdana, sans-serif;}
+
+.navigation
+{
+    background-color: rgba(152,193,216,1.00);/**/
+    width: 800px;
+    height: 600px;
+    margin-top: 131px;
+    display: block;
+    color: transparent;
+}
+
+.navigation a
+{
+    /*background-color: rgba(80,123,168,1.00);*/
+    float: left;
+    width: 96.5px;
+    height: 297.5px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-size: cover;
+    color: transparent;
+}
+.navigation a:nth-of-type(8){margin-right: 0;}
+.navigation a:nth-last-of-type(1){width: 197px;margin-right: 0;}
+.navigation a:hover{background-color: rgba(196,195,18,1.00);
+/*filter: grayscale();*/
+filter: sepia();}
+.navigation a:nth-of-type(1){background-image: url("../img/inh_verz_barcelona.jpg");}
+.navigation a:nth-of-type(2){background-image: url("../img/inh_verz_dublin.jpg");}
+.navigation a:nth-of-type(3){background-image: url("../img/inh_verz_duesseldorf.jpg");}
+.navigation a:nth-of-type(4){background-image: url("../img/inh_verz_edinburgh.jpg");}
+.navigation a:nth-of-type(5){background-image: url();}
+.navigation a:nth-of-type(6){background-image: url();}
+.navigation a:nth-of-type(7){background-image: url("../img/inh_verz_helsinki.jpg");}
+.navigation a:nth-of-type(8){background-image: url("../img/inh_verz_isfahan.png");}
+.navigation a:nth-of-type(9){background-image: url("../img/inh_verz_london.jpg");}
+.navigation a:nth-of-type(10){background-image: url();}
+.navigation a:nth-of-type(11){background-image: url("../img/inh_verz_paris.jpg");}
+.navigation a:nth-of-type(12){background-image: url("../img/inh_verz_rom.jpg");}
+.navigation a:nth-of-type(13){background-image: url();}
+.navigation a:nth-of-type(14){background-image: url();}
+.navigation a:nth-of-type(15){background-image: url();}

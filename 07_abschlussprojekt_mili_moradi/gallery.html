@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>Gallery</title>
+		<link href="css/gallery.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="pic/favicon.png" type="image/x-icon">
+        <script src="js/bibliothek.js"></script>
+        <link rel="stylesheet" href="css/uhr.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+
+  <body onLoad="ZeitAnzeigen()">
+       <!--Navigation-Menu-->
+    <div class="container">
+    
+      <div class="title">
+          <h1 class="website-name">THE UNKNOW TRUE IRAN</h1>
+          <h3 class="website-präsentation">Intriguing Things You Never Knew About Iran and Iranians</h3>
+      </div>
+      
+      <div class="navbar">
+      <img class="logo" src="pic/iran-logo-1.jpg" alt="">
+        
+      <div id="sf_uhr">
+        <div id="wt">Wochentag</div> 
+        <div id="datum_din5008">2222-45-87</div>
+        <div id="uz">11:87:99</div>
+      </div>
+
+      <a href="homepage.html" class="activ"><i class="fa fa-home"></i></a>
+        
+      <div class="dropdown">
+        <button class="dropbtn">Culture
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="history.html">Hisrory</a>
+          <a href="#">Literature</a>
+          <a href="#">Religion</a>
+          <a href="#">Cinema and Music</a>
+          <a href="#">Art and Handicrafts</a>
+        </div>
+      </div>
+          
+      <div class="dropdown">      
+        <button class="dropbtn">Tourist Attraction
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="map.html">Provinces</a>
+          <a href="#">Festivals</a>
+          <a href="#">Must-Visit Attraction in Iran</a>
+        </div>
+      </div>
+        
+      <div class="dropdown">
+        <button class="dropbtn">Persian Cuisine
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Recipes</a>
+        </div>
+    </div> 
+        
+      <div class="dropdown">
+        <button class="dropbtn">Language
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Learning Persian</a>
+        </div>
+    </div> 
+      
+      <div class="dropdown">
+        <button class="dropbtn">Politic
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="politic.html">Woman Life Freedom</a>
+        </div>
+      </div> 
+        
+      <div class="dropdown">
+        <button class="dropbtn">Gallery
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="gallery.html">Image Gallery</a>
+          <a href="#">Video Gallery</a>
+        </div>
+      </div> 
+          
+      <a href="contact-form.html" class="message"><i class="fa fa-envelope"></i></a>
+        
+    </div>    
+  </div>
+          <!--Gallery-Seite-->
+
+        <div class="container2">
+          <div class="control_nav_positionieren">
+            <div id="slider" class="nivoSlider">
+              <img src="pic/01.jpg" alt="" data-thumb="pic/01.jpg"> 
+              <img src="pic/02.jpg" alt="" data-thumb="pic/02.jpg">
+              <img src="pic/03.jpg" alt="" data-thumb="pic/03.jpg">
+              <img src="pic/04.jpg" alt="" data-thumb="pic/04.jpg">
+              <img src="pic/05.jpg" alt="" data-thumb="pic/05.jpg">
+              <img src="pic/06.jpg" alt="" data-thumb="pic/06.jpg">
+              <img src="pic/07.jpg" alt="" data-thumb="pic/07.jpg"> 
+              <img src="pic/08.jpg" alt="" data-thumb="pic/08.jpg">
+              <img src="pic/09.jpg" alt="" data-thumb="pic/09.jpg">
+              <img src="pic/10.jpg" alt="" data-thumb="pic/10.jpg">
+              <!--<img src="pic/11.jpg" alt="" data-thumb="pic/11.jpg">
+              <img src="pic/12.jpg" alt="" data-thumb="pic/12.jpg">
+              <img src="pic/13.jpg" alt="" data-thumb="pic/13.jpg"> -->
+              <img src="pic/14.jpg" alt="" data-thumb="pic/14.jpg">
+              <img src="pic/15.jpg" alt="" data-thumb="pic/15.jpg">
+              <img src="pic/16.jpg" alt="" data-thumb="pic/16.jpg">
+              <img src="pic/17.jpg" alt="" data-thumb="pic/17.jpg"> 
+              <img src="pic/18.jpg" alt="" data-thumb="pic/18.jpg">
+              <img src="pic/19.jpg" alt="" data-thumb="pic/19.jpg">
+              <!--<img src="pic/20.jpg" alt="" data-thumb="pic/20.jpg">-->
+              <img src="pic/21.jpg" alt="" data-thumb="pic/21.jpg">
+		  </div>
+        </div>
+		
+		<script src="js/jquery.1.7.1.js" ></script>
+       <script src="js/jquery.nivo.slider.pack.js"></script>   
+        <script >
+			$(window).load(function() {
+				$('#slider').nivoSlider({
+					effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+					slices: 4, // For slice animations
+					boxCols: 8, // For box animations
+					boxRows: 4, // For box animations
+					animSpeed: 500, // Slide transition speed
+					pauseTime: 3000, // How long each slide will show
+					startSlide: 0, // Set starting Slide (0 index)
+					directionNav: true, // Next & Prev navigation
+					controlNav: true, // 1,2,3... navigation
+					controlNavThumbs: true, // Use thumbnails for Control Nav
+					pauseOnHover: false, // Stop animation while hovering
+					manualAdvance: false, // Force manual transitions
+					prevText: 'Prev', // Prev directionNav text
+					nextText: 'Next', // Next directionNav text
+					randomStart: false, // Start on a random slide
+					beforeChange: function(){}, // Triggers before a slide transition
+					afterChange: function(){}, // Triggers after a slide transition
+					slideshowEnd: function(){}, // Triggers after all slides have been shown
+					lastSlide: function(){}, // Triggers when last slide is shown
+					afterLoad: function(){} // Triggers when slider has loaded
+				});
+			});
+</script>
+        </div>
+	</body>
+</html>

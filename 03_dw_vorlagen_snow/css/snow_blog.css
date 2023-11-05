@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document für die Inhalte des Snowboard Fun Blog */
+
+#blog_wrapper{background-color: #364497;
+min-width: 500px;
+max-width:940px;
+min-height: 120px;
+margin: auto;
+margin-top: 50px;}
+
+#linke_spalte, #rechte_spalte{float: left;
+line-height: 15px;	
+}
+
+#linke_spalte{background-color: #d3e2f9;
+padding: 15px;
+width: 70%;
+color:#001463}
+
+.blog_komplett{background-color: rgba(244,249,59,0.0);
+min-height: 150px;
+border-bottom: 1px solid #001463;
+padding-bottom: 15px;	
+margin-bottom: 15px;/**/}
+
+.blog_komplett h3{border-bottom:1px solid #001463;}
+.rechtsbuendig, .datum{float: right;}
+
+.beitrag_info, .beitrag_social{background-color: #dedede;
+margin-bottom: 15px;}
+
+.blog_content{background-color: rgba(227,60,210,0.0);
+overflow: auto;}
+
+.blog_content img{width: 40%;
+height: auto;
+float: left;
+margin-right: 15px;	
+}
+.blog_content p{margin-top: 0;}
+
+.blog_bottom_a{background-color: #001463;
+color:#fff;
+padding: 3px 2px;}
+
+.blog_bottom_a:hover{background-color: #364497;}/**/
+
+#rechte_spalte{background-color: #364497;
+padding: 15px;
+width: 30%;
+color:#fff;}
+
+#rechte_spalte a{color:#fff;}
+
+#info_bottom_text{margin-bottom: 15px;}
+
+
+/* #############  at media Formate zur Anpassung des Layout ####################*/
+
+@media (max-width:43.75rem)
+{	
+	#linke_spalte{width: 100%; 
+	float: none;}
+	#rechte_spalte{width: 100%; 
+	float: none;}
+}
+
+@media screen and (max-width:34.375rem) /*  */
+{
+	#sub_text{display:none;}
+}
+
+
+@media print {
+	#blog_wrapper{margin: 0;}
+	
+	#sub_header, #rechte_spalte, .beitrag_social, #footer, #linke_spalte a{display: none;}
+	
+	#linke_spalte{width: 100%;}
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

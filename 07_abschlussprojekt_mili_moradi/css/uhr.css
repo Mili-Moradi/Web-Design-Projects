@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Dokument mit standard Formaten für die Eigenschaftstabellen */
+
+/*body { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:100%;}
+table, th, td	{ border:3px solid #001463;} 
+table	{ width:43.75em;}	
+ul	{ font-size:large;}
+th{ background-color:#dedede;}
+.schrift	{ font-size:16px;}
+
+.zusatz{background-color: rgba(119,164,243,0.30);
+width: 50%;
+padding: 1rem;
+margin-top: 1rem;}
+
+.zusatz h3{margin-top: 0;
+margin-bottom: 1rem;}
+
+.navi{background-color: rgba(119,164,243,0.30);
+padding: 1rem;
+padding-bottom: 0.01rem;}
+
+.navi a{background-color: rgba(228,222,222,0.51);
+text-decoration: none;	
+display: block;	
+padding: 1rem;
+margin-bottom: 1rem;
+transition: padding-left 0.5s, border-radius 0.2s;}
+
+.navi a:hover{background-color: rgba(128,122,122,0.70);
+color:#fff;
+	/*text-decoration: underline overline;*/
+/*padding-left: 10%;
+border-radius:0.5rem;}*/
+
+/*#uz{border-bottom:0.0625rem solid;padding-bottom:1rem;}*/
+
+/*#sf_uhr{background-color: rgba(106,125,239,0.48);
+    background-size: cover;
+background-image: url("../img/sf_uhr.png");
+width: 31.25rem;    /*500px*/
+/*height: 29.25rem;   /*468px*/
+   /* position: relative;*/
+
+#sf_uhr{/*background-color: rgba(106,125,239,0.48);*/
+  width: 250px;
+  display: flex;
+  /*margin-left: 1000px;*/
+   /*float:right;*/
+  justify-content: space-between;
+    color:rgba(255,255,255,1.00);
+    padding: 2.2rem 1rem;
+    padding-right: 10    rem;
+ }
+
+
+
+
+#wt{/*top: 39.1%;*/
+/*left: 44%;*/
+}
+
+#datum_din5008{
+    /*top: 50%;*/
+    /*left: 34%;*/
+   
+}
+#uz{/*position: absolute;*/
+/*top: 195px;
+left:145px;*/
+/*font-size: 2.7rem;
+color: #fff;*/
+}
+
+
+
+
+
+
+
+
+
+
+
