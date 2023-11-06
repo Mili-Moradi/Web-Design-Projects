@@ -1,2 +1,2 @@
 # Web-Design-Projects
-alle Webdesign Projekte auf eine Site 
+alle Webdesign Projekte verlinkt auf eine Site 
